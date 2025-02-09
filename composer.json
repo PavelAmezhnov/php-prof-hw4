@@ -1,0 +1,5 @@
+{
+    "require": {
+        "pavel-mezhnov/bracket-counter": "^1.0"
+    }
+}
