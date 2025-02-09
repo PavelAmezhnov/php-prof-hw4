@@ -4,9 +4,9 @@ php-fpm и вашим кодом. Используя docker-compose вы зап�
 соединений.
 
 Клиент соединяется, и шлёт следующий HTTP-запрос:
-POST / HTTP/1.1
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 48
+POST / HTTP/1.1\
+Content-Type: application/x-www-form-urlencoded\
+Content-Length: 48\
 string=(()()()()))((((()()()))(()()()(((()))))))
 
 Все запросы с динамическим содержимым (*.php) nginx, используя директиву
